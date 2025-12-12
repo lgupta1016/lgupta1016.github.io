@@ -1,196 +1,99 @@
-*{
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	flex-grow: 0;
-    flex-shrink: 1;
-}
-/*Home page*/
-body{
-	font-family:'Segoe UI';
-	background-color: indianred;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.logo-text {
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+    padding: 40px 20px;
     display: flex;
-    justify-content: center;
-    font-size: 50px;
-    padding: 20px;
-}
-
-.description1 {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    padding: 10px 20px 30px;
-}
-
-.content-wrapper {
-    display: flex;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.mission h2 {
-    font-size: 32px;
-    margin-bottom: 15px;
-}
-
-.mission p {
-    font-size: 30px;
-    line-height: 1.6;
-}
-
-.content{
-	display: flex;
-	gap: 25px;
-}
-
-
-.links{
-	display: flex;
-  	justify-content: space-around;
-  	gap: 25px;
-  	list-style-type: none;
-  	padding-top: 25px;
-  	font-size: 20px;
-	border: 2px white solid;
-	padding: 50px;
-	border-radius: 5px;
-	background-color: orange;
-	font-weight: normal;
-	font-size: 25px;
-	text-decoration:none;
-
-}
-
-/*Leadership Page*/
-
-h1{
-	display: flex;
-	justify-content: center;
-	font-size:50px;
-}
-p{
-	display: flex;
-	justify-content: center;
-	font-size:25px;
-}
-
-
-.members-container {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-	flex-wrap: wrap;
-}
-
-.members-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-}
-
-.member-card {
- 	background-color: #f4f4f4;
-   	border: 2px solid #ddd;
-    border-radius: 10px;
-    padding: 100px;
-    text-align: center;
-}
-
-.member-photo {
-	 width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin: 0 auto 15px;
-    overflow: hidden;
-    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.member-card h3 {
-    color: #FF6B35;
+h1 {
+    text-align: center;
+    color: black;
+    margin-bottom: 40px;
+    font-size: 36px;
+    width: 100%;
+}
+
+h3 {
+    color: blueviolet;
+    margin-top: 30px;
+    margin-bottom: 15px;
     font-size: 22px;
-    margin-bottom: 5px;
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.member-role {
-    font-weight: bold;
-    margin-bottom: 10px;
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+label {
     font-size: 16px;
 }
 
-
-
-
-
-
-
-
-
-
-
-/*Events Page*/
-
-.events-container {
-    max-width: 1200px;
-    margin: 50px auto;
-    padding: 20px;
+label:hover {
+    color: blue;
 }
 
-.section-title {
-  	color: #FF6B35;
-    font-size: 36px;
-    margin: 40px 0 30px;
+button {
+    width: 100%;
+    max-width: 700px;
+    padding: 18px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: slateblue;
+}
+
+.vacationspot {
+    display: none;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.vacationspot h2 {
+    color: blueviolet;
+    font-size: 28px;
+    margin-bottom: 20px;
     text-align: center;
 }
 
-.events-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 50px;
-}
-
-.event-card {
- 	border: 2px solid #ddd;
+.vacationspot img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
     border-radius: 10px;
-    padding: 20px;
-    width: 320px;
-    background-color: white;
+    margin: 20px 0;
+    display: block;
 }
 
-.event-banner {
-    height: 180px;
-    background-color: #FF6B35;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    display: flex;
-    align-items: center;
-	justify-content: center;
-    color: white;
-    font-size: 60px;
-        }
-
-.event-card h3 {
-    color: #FF6B35;
-    font-size: 24px;
-    margin-bottom: 10px;
+.vacationspot p {
+    text-align: left;
+    color: black;
+    font-size: 17px;
 }
-
-.event-details {
-   	margin-bottom: 8px;
-    font-size: 15px;
-    line-height: 1.6;
-        }
-
-        
-
+}
