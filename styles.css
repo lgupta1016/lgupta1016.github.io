@@ -1,99 +1,95 @@
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    background-color: lightblue;
+    border-bottom: 1px solid #ddd;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: lightgray;
-    padding: 40px 20px;
+#logo {
+    margin: 0;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home page */
+
+*{
+    background-color: lightblue;
+
+}
+
+
+.content{
+    border: 20px darkgreen solid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-h1 {
     text-align: center;
-    color: black;
-    margin-bottom: 40px;
-    font-size: 36px;
-    width: 100%;
+   
 }
 
-h3 {
-    color: blueviolet;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 22px;
-    width: 100%;
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
+img {
+    width: 500px;
 }
 
-input[type="radio"] {
-    margin-right: 10px;
-}
-
-label {
-    font-size: 16px;
-}
-
-label:hover {
-    color: blue;
-}
-
-button {
-    width: 100%;
-    max-width: 700px;
-    padding: 18px;
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 10px;
+p{
     font-size: 20px;
-    font-weight: bold;
-    margin-top: 30px;
+
 }
 
-button:hover {
-    background-color: slateblue;
+
+
+/*Captains Page*/
+
+#captains{
+    display:none;
+}
+button{
+    font-size: 50px;
+    background-color: darkgreen;
+    display: flex;
+
+
+}
+button:hover{
+    color: green;
 }
 
-.vacationspot {
-    display: none;
-    background-color: white;
-    padding: 40px;
-    border-radius: 15px;
-    max-width: 700px;
-    width: 100%;
-    margin-top: 30px;
+
+/*Coaches Page*/
+
+.profile-container{
+    display: flex;
+    gap: 330px;
 }
 
-.vacationspot h2 {
-    color: blueviolet;
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-align: center;
+.profile{
+    display: flex;
+    flex-direction: column;
 }
 
-.vacationspot img {
-    width: 100%;
-    max-width: 700px;
-    height: auto;
-    border-radius: 10px;
-    margin: 20px 0;
-    display: block;
+.profile-photo{
+    height: 300px;
+    width: 300px;
 }
 
-.vacationspot p {
-    text-align: left;
-    color: black;
-    font-size: 17px;
-}
-}
+
+
+
+
+
